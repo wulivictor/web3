@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/helloFactory.sol": "helloFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hello.sol": {
+			"keccak256": "0xf35fdd8af4aaade45c64fa9f94ff8bb5b34edde75905c264a206e62321f12a5d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c4b5334d96fd2c489f92095ee29be8ce7693e2603df08b32fe11bac968f9338e",
+				"dweb:/ipfs/QmNjxqNigBzZdjmBJ35Qe6rUQaV4fDoYHDAypWAFeoHp5B"
+			]
+		},
+		"contracts/helloFactory.sol": {
+			"keccak256": "0xdacecc5ed74d345c06df2ba14f49c15fa94839735202f8c188a2840176adf5e3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://664fa55264ecf5b398a4f77b5d06cea948d8da89dda5190e35bb1a3791aace8c",
+				"dweb:/ipfs/QmNaTw1UyrNYbgf1MtqbCPRXvm4zvKtjF8As6g6jTKzbUK"
+			]
+		}
+	},
+	"version": 1
+}
