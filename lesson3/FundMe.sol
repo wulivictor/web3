@@ -86,7 +86,7 @@ contract FundMe {
         require(success, "tx failed !");
     }
 
-    function transfrmOwnerShip(address newOwnerAddress) public {
+    function transfrmOwnerShip(address newOwnerAddress) public checkOwner{
         owner = newOwnerAddress;
     }
 
