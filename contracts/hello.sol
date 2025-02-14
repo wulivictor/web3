@@ -33,4 +33,8 @@ contract HelloWolrd {
     function addinfo(string memory val) internal pure returns (string memory) {
         return string.concat(val, ": from Frank to Bob");
     }
+
+    function fund () payable public returns (uint256) {
+        return msg.value;
+    }
 }

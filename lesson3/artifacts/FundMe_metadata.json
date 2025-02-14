@@ -6,7 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_lockTime",
+						"type": "uint256"
+					}
+				],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
 			},
@@ -48,6 +54,33 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getFund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "refund",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwnerAddress",
+						"type": "address"
+					}
+				],
+				"name": "transfrmOwnerShip",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -59,7 +92,13 @@
 			"kind": "user",
 			"methods": {
 				"getChainlinkDataFeedLatestAnswer()": {
-					"notice": "Returns the latest answer."
+					"notice": "Returns the latest answer.   这儿返回的是267424938090  就很好的解释了为啥上面要除8"
+				},
+				"getFund()": {
+					"notice": "获取众筹资金, 按usd计算"
+				},
+				"refund()": {
+					"notice": "用户退款"
 				}
 			},
 			"version": 1
@@ -90,11 +129,11 @@
 			]
 		},
 		"lesson3/FundMe.sol": {
-			"keccak256": "0xed7657a751d6238851bb67e7a1a04067805f2dac837f50c53142b94838606a80",
+			"keccak256": "0x8ca7dadee522243cf1043ec69e5fa8fcbb051d134e271851b6d1f01154863e04",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4a4e16b52ee33ad96ea54e400b29c6c9c130ab19cf6515093e53cffdf37010b3",
-				"dweb:/ipfs/QmUKUnc7B3oYaU7723jo5nxvaQTgFGrXzLZdNX6aSfBu7h"
+				"bzz-raw://7ca50f66d8485e1b711e2b4b5787fa88b732d6711ede67da852265daf01c1a37",
+				"dweb:/ipfs/QmUyCtocnqe6xMHAtragJBKMx1UcKdn2kmfwS8DGkszZTn"
 			]
 		}
 	},

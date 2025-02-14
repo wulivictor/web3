@@ -6,6 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"name": "fund",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -71,11 +84,11 @@
 	},
 	"sources": {
 		"contracts/hello.sol": {
-			"keccak256": "0x3f469e77ee3853e9d0f51295f08a65c4c9d739655ffab809ff7a8da386a3ec56",
+			"keccak256": "0x42418f96d68a579826cfd06fdae8021d93855b4b04fed19195df7a5cca2654d9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://f98702af94dbe93c9dc5c70596d8d20e0e1d2c098b077f0b47b8a57130b37103",
-				"dweb:/ipfs/QmRo9rusTDh3oBJu9EANHX5yz7MX8s8LWcTpUrBQYdQUXR"
+				"bzz-raw://52145980a62c4a7734dcf9d125d470f6a748b14d8ce76c0bb71f9511ac70941d",
+				"dweb:/ipfs/QmSkH5edkwpDXR58jQZpRJXqu6iEiNHDE37UuUB3uV73xN"
 			]
 		}
 	},
